@@ -15,3 +15,4 @@ if response.status_code == 200:
     print(df.head())
 else:
     print(f"Failed to retrieve data, status code: {response.status_code}")
+
