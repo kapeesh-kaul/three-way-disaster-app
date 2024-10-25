@@ -17,3 +17,7 @@ def get_data():
     else:
         print(f"Failed to retrieve data, status code: {response.status_code}")
         return None
+    
+if __name__ == "__main__":
+    df = get_data()
+    print(df)
