@@ -1,4 +1,4 @@
 /disaster
 /venv
 /server/.env
-/data/paper-pdfs
+server/data/paper-pdfs
